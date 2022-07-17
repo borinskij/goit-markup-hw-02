@@ -45,11 +45,13 @@ ul{
 /* логотип */
 .logo{
     color: #000000;
+    font-size: 26px;
 }
 
 /* навигация */
 .site-nav a {
     color: var(--title-text-color);
+    font-size: 14px;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -58,6 +60,7 @@ ul{
 /* контакты */
 .contacts a {
     color: var(--primary-text-color);
+    font-size: 14px;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -67,6 +70,9 @@ ul{
 /* body */
 .section-title{
 color: var(--title-text-color);
+}
+.section-text{
+    
 }
 
 /* hero */
