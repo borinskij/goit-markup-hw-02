@@ -106,6 +106,7 @@ color: #ffffff;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        cursor: pointer;
 }
 /* section */
 
@@ -173,5 +174,38 @@ color: #ffffff;
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+
+.filter-button{
+    background: #F5F4FA;
+    border-radius: 4px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor:pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+background-color: var(--accent-text-color);
+color: #ffffff;
+}
+
+.work h3 {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.work p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
         letter-spacing: 0.03em;
 }
