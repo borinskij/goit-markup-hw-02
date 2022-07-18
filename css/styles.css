@@ -120,7 +120,6 @@ color: #ffffff;
 }
 
 .section-text {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -153,7 +152,6 @@ color: #ffffff;
 }
 
 .team-text{
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
         text-align: center;
@@ -163,7 +161,6 @@ color: #ffffff;
 /* footer */
 .logo-adress a{
     color: #ffffff;
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -171,7 +168,6 @@ color: #ffffff;
 .logo-mail a,
 .logo-tel a{
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -204,7 +200,7 @@ color: #ffffff;
         letter-spacing: 0.06em;
 }
 .work p {
-    font-weight: 400;
+        /* font-weight: 400; */
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
