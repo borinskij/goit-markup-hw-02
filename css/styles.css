@@ -51,16 +51,18 @@ ul{
     font-size: 26px;
     line-height: 1.2;
     font-weight: 700;
+    text-decoration: none;
 }
 
 /* навигация */
-.site-nav>a {
+.site-nav a {
     color: var(--title-text-color);
     font-size: 14px;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -73,6 +75,7 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -164,6 +167,8 @@ color: #ffffff;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 }
 .logo-mail a,
 .logo-tel a{
@@ -171,6 +176,8 @@ color: #ffffff;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 }
 
 /* Portfolio */
@@ -178,7 +185,7 @@ color: #ffffff;
 .filter-button{
     background: #F5F4FA;
     border-radius: 4px;
-
+    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
