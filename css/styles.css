@@ -40,6 +40,21 @@ color: rgba(255, 255, 255, 0.6)*/
 ul {
   list-style: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* хедер */
 .page-header {
   background: #ffffff;
@@ -84,6 +99,9 @@ ul {
   color: var(--accent-text-color);
 }
 
+.hidden {
+  display: none;
+}
 /* hero */
 .hero-title,
 .hero-button {
